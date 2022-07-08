@@ -63,7 +63,7 @@ $_SESSION['scid'] = $_POST['cid'];
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav" ms-auto>
               <li class="nav-item">
                 <a class="nav-link">General Info</a>
               </li>
@@ -96,7 +96,7 @@ $_SESSION['scid'] = $_POST['cid'];
       
       <div class="feature-info col-lg">
       
-        <form class="row needs-validation" action="index.php" method="post" enctype="multipart/form-data" novalidate>
+        <form class="row needs-validation" action="index.html" method="post" enctype="multipart/form-data" novalidate>
             
           <div class="input">
             <label for="validationTextarea" class="form-label">Upload CV/Resume</label>

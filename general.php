@@ -1,10 +1,10 @@
 
 <?php
- session_start();
+ 
 include 'connect.php';
 
 if(isset($_POST['submitdoc'])){
-
+    session_start();
     $name =  $_SESSION['sname'];
     $fname =  $_SESSION['sfname'];
     $email =  $_SESSION['semail'] ;
