@@ -1,0 +1,187 @@
+
+ Html, body 
+ {
+     max-width: 100%;
+     overflow-x: hidden;
+  }
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+  }
+  
+  h1,h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+  }
+  
+  p {
+    color:#8D8DAA;
+    margin: 2px;
+  }
+  
+  /* Headings */
+  
+  .big-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    font-weight: bolder;
+    
+  }
+  
+  .section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  
+  /* Containers */
+  
+  .container-fluid{
+    padding: 7% 10%;
+  }
+  
+  /* Sections */
+  
+  .colored-section {
+    background: linear-gradient(to right, #33ccff 0%, #007BFF 100%);
+    color: #fff;
+    padding-top: 5%;
+  }
+  
+  .colored-section-header{
+   
+    background: linear-gradient(to right, #056CA5 0%, #002C63 100%);
+    padding: 2% 15% 0 15%;
+    
+    
+  }
+  
+  
+  .white-section {
+    background-color: #fff;
+  }
+  
+  /* Navigation Bar */
+  
+  .navbar {
+    padding: 0 0 2rem 2rem;
+  }
+
+  
+  .nav-item {
+    padding: 0 18px;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 10%;
+  }
+
+  .nav-gen{
+    color: #fff;
+  }
+  
+  /* Buttons */
+  
+  .download-button {
+    margin: 5% 3% 5% 0;
+  }
+  
+  /* Title Section */
+  
+  #title {
+    background-color: #1d9bf0;
+    color: #fff;
+    text-align: left;
+  }
+  
+  #title .container-fluid {
+    padding: 3% 15% 7%;
+  }
+  
+  /* Title Image */
+  
+  .title-image {
+    width: 275px;
+   
+  }
+  
+  /* Features Section */
+  
+  #features {
+    position: relative;
+  }
+  
+  .feature-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .feature-box {
+    background: linear-gradient(to right, #33ccff 0%, #007BFF 100%);
+    color: #fff;
+    padding: 5%;
+    margin: 5% 5% 7% 5%;
+  }
+  
+  .feature-info{
+    
+    margin: 5% 7% 7% 7%;
+  }
+  
+  .icon {
+    color: #007BFF;
+    margin-bottom: 1rem;
+  }
+  
+  /* Footer Section */
+  
+  .footer{
+  
+     background: linear-gradient(to right, #33ccff 0%, #007BFF 100%);
+     color: #fff;
+     padding: 3% 3%;
+  
+  }
+  
+  @media (max-width: 1028px) {
+  
+    #title {
+      text-align: center;
+    }
+  
+    .title-image {
+      position: static;
+      transform: rotate(0);
+    }
+  }
+  
+  
+
+  .form-select,.form-control{ 
+    font-family: Montserrat,sans-serif;
+    font-weight: 500;
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: #efeff0;
+    color: grey;
+    border: none;
+  }
+    
+  .form-check,.btn{
+    font-family: Montserrat,sans-serif;
+    font-weight: 500;
+    margin-bottom: 12px;
+    padding: 8px;
+    border-radius: 8px;
+
+  }
+
+.input{
+  text-align: left;
+}
+
